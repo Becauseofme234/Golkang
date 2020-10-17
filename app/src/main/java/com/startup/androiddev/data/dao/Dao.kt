@@ -12,7 +12,8 @@ import com.startup.androiddev.data.entity.UserName
 @Dao
 interface Dao {
 
-    @Query("select * from UserName")
+    //Select 
+    @Query("Select * from UserName")
     fun getDAtaUser(): LiveData<List<UserName>>
 
     @Insert
