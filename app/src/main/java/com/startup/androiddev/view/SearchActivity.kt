@@ -35,8 +35,6 @@ class SearchActivity : AppCompatActivity() {
                                 layoutManager = LinearLayoutManager(this@SearchActivity)
                                 adapter = adapters
                             }
-
-
                             adapters.deletedatax(object : deleteProduk {
                                 override fun deleteproduk(produk: Product) {
                                     vm.deleteProduk(produk)

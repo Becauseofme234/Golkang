@@ -14,7 +14,7 @@ import com.startup.androiddev.view.adapter.deleteProduk
 import com.startup.androiddev.data.entity.Product
 import kotlinx.android.synthetic.main.activity_product.*
 
-class ProductActivity : AppCompatActivity() {
+class  ProductActivity : AppCompatActivity() {
 
     lateinit var vm: AndroidViewModel
     lateinit var adapters: AdapterProduk
