@@ -26,12 +26,16 @@
         android:id="@+id/nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/custom_edit_text_green"
         android:hint="produk" />
 
     <EditText
         android:id="@+id/harga"
         android:layout_width="match_parent"
+        android:background="@drawable/custom_edit_text_green"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:hint="harga" />
 
     <Button
