@@ -47,7 +47,6 @@
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
             android:text="Edit"
-            android:layout_marginEnd="10dp"
             android:textColor="#fff" />
 
         <Button
@@ -55,7 +54,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#DA0303"
-            android:layout_marginEnd="10dp"
             android:text="Delete"
             android:textColor="#fff" />
 
