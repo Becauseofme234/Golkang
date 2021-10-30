@@ -11,7 +11,7 @@ import com.startup.androiddev.data.entity.UserName
 import kotlinx.android.synthetic.main.item_data.*
 
 class AddActivity : AppCompatActivity() {
-    
+
     lateinit var vm: AndroidViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,5 @@ class AddActivity : AppCompatActivity() {
             }
 
         }
-
-
     }
 }
