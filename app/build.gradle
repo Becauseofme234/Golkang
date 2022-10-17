@@ -50,4 +50,7 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
 
+    // WorkManager dependency
+    implementation "androidx.work:work-runtime-ktx:$versions_work"
+
 }
