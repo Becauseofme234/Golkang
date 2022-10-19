@@ -11,7 +11,6 @@ import com.startup.androiddev.data.entity.UserName
 
 @Database(entities = [UserName::class, Product::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
-
     abstract fun nameDao(): Dao
 
     companion object {
